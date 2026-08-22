@@ -55,10 +55,10 @@ Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
 ```
+![alt text](<SUDO APT UPDATE 1.png>)
 
+![alt text](<SUDO APT UPDATE 2.png>)
 
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\SUDO APT UPDATE 1.png
-![alt text](<../../../../PRACTICAS/CAPTURAS TARE4/SUDO APT UPDATE 2.png>)
 ---
 
 # 2. Instalación del servidor web Apache2
@@ -111,7 +111,8 @@ Una vez finalizada la instalación, Apache2 queda disponible en el sistema.
 
 
 
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\SUDO APT INSTALL APACHE2.png
+
+![alt text](<SUDO APT INSTALL APACHE2.png>)
 ---
 
 # 3. Verificación del estado del servicio Apache2
@@ -198,8 +199,8 @@ Esta comprobación permite verificar que:
 
 Apache2 utiliza normalmente el puerto HTTP 80 para atender estas solicitudes.
 
+![alt text](<APACHE WORKS.png>)
 
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\APACHE WORKS.png
 ---
 
 # 5. Acceso al directorio utilizado por Apache2
@@ -349,12 +350,9 @@ El archivo `index.html` es el documento que Apache2 muestra automáticamente cua
 http://localhost
 ```
 
-sin especificar otro archivo.
-
-## Evidencia
 
 
-![alt text](<../../../../PRACTICAS/CAPTURAS TARE4/CAP5 .png>)
+## 
 ```bash
 cd /var/www/html/
 pwd
@@ -373,8 +371,8 @@ y el archivo:
 index.html
 ```
 
-<!-- INSERTAR AQUÍ LA CAPTURA DEL PASO 5, 6 Y 7 -->
 
+![alt text](<CAP5 .png>)
 ---
 
 # 8. Creación de una copia de respaldo del archivo index.html
@@ -448,10 +446,7 @@ index.html.bak
 
 Esto confirma que el archivo original de Apache2 fue conservado como una copia de respaldo.
 
-## Evidencia
 
-
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\CAP5 .png
 ---
 
 # 10. Creación y edición del nuevo archivo index.html
@@ -538,10 +533,9 @@ muestra el nombre completo.
 
 No fue necesario agregar diseño, estilos CSS, imágenes ni otros elementos debido a que la actividad únicamente solicita mostrar el carné y nombre completo.
 
-## Evidencia
 
+![alt text](NANO.png)
 
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\NANO.png
 ---
 
 # 12. Guardado del archivo utilizando Nano
@@ -721,10 +715,7 @@ También permite demostrar que el contenido solicitado se encuentra almacenado d
 /var/www/html/index.html
 ```
 
-## Evidencia
-
-
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\CATINDEX.png
+![alt text](CATINDEX.png)
 ---
 
 # 16. Verificación final del archivo desde el navegador
@@ -769,9 +760,6 @@ Nombre completo: NOMBRE COMPLETO DEL ESTUDIANTE
 
 Esto confirma que el servidor Apache2 está leyendo correctamente el nuevo archivo `index.html`.
 
-## Evidencia
-
-
-c:\Users\mocho\OneDrive\Escritorio\USAC DANIEL CABRERA\4to SEMESTRE\PRACTICAS\CAPTURAS TARE4\EN NAVEGADOR.png
+![alt text](<EN NAVEGADOR.png>)
 ---
 
